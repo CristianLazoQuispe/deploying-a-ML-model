@@ -3,7 +3,7 @@ import pytest
 import pandas as pd
 
 from starter.starter.ml.data import process_data
-from starter.starter.ml.model import train_model,inference,compute_model_metrics
+from starter.starter.ml.model import train_model, inference, compute_model_metrics
 from sklearn.model_selection import train_test_split
 
 
@@ -22,15 +22,17 @@ def test_data_size(data):
     """
     Testing the size of columns and rows
     """
-    assert data.shape[0]>0
+    assert data.shape[0] > 0
     assert data.shape[1] == 15
 
+
 def test_models_files():
-    
+
     assert os.path.isfile("starter/model/model.pkl")
     assert os.path.isfile("starter/model/encoder.pkl")
     assert os.path.isfile("starter/model/lb.pkl")
-    
+
+
 def test_training(data):
     train, test = train_test_split(data, test_size=0.20)
     cat_features = [
@@ -52,7 +54,7 @@ def test_training(data):
     model = train_model(X_train, y_train)
     preds = inference(model, X_train)
     metrics = compute_model_metrics(y_train, preds)
-    
+
     assert len(metrics) == 3
     for metric in metrics:
-        assert metric >=0.8
+        assert metric >= 0.8
