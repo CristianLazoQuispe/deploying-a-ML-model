@@ -56,6 +56,9 @@ class DataOut(BaseModel):
 
 # Adding GET  Welcome message to the initial page
 
+@app.get('/')
+async def root():
+    return {"Welcome": "Welcome to the ML project!"}
 
 @app.get("/welcome")
 async def root():
