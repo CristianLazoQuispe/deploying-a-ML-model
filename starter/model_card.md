@@ -21,8 +21,10 @@ For additional information see the Model Card paper: https://arxiv.org/pdf/1810.
 ## Metrics
 We used metrics: precision_score, recall_score,  and fbeta_score. Performance results for the slices of education feature is presented in this table:
 
-Training metrics: precision=0.9990 recall=0.9957 fbeta=0.9974
-Testing  metrics: precision=0.7420 recall=0.6225 fbeta=0.6771
+
+        Training metrics: precision=0.9990 recall=0.9957 fbeta=0.9974
+        Testing  metrics: precision=0.7420 recall=0.6225 fbeta=0.6771
+
 
         Training dataset    Precision : 0.9990  Recall : 0.9957  Beta : 0.9974
         --------------------------------------------------------
