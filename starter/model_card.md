@@ -78,7 +78,7 @@ Model performance is measured with the overall metrics and slice performance ana
 
 ## Ethical Considerations
 
-According to the data slices, the model have a underperformance in 7th-8th. This is a indicator os discriminate people because the prediction is always "Income < 50k". This observation requires futher investigation.
+According to the data slices, the model have a underperformance in 7th-8th. This is a indicator of discriminate people because the prediction is always "Income < 50k". This observation requires futher investigation.
 
 Performance in train
 
@@ -90,4 +90,4 @@ Performance in test
 
 
 ## Caveats and Recommendations
-The data is imbalance and biased and need to be investigated more. For example in the Preschool category as we can see in the previos step.
+The data is imbalance and biased and need to be investigated more. For example in the 7th-8th category as we can see in the previos step.
