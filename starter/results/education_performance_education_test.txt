@@ -1,0 +1,20 @@
+Performance results for the slices of education feature
+
+Total dataset    Precision : 0.7420  Recall : 0.6225  Beta : 0.6771
+--------------------------------------------------------
+ Bachelors       Precision : 0.7714  Recall : 0.7200  Beta : 0.7448
+ HS-grad         Precision : 0.6407  Recall : 0.4290  Beta : 0.5139
+ 11th            Precision : 0.8000  Recall : 0.3636  Beta : 0.5000
+ Masters         Precision : 0.8279  Recall : 0.8599  Beta : 0.8436
+ 9th             Precision : 1.0000  Recall : 0.3333  Beta : 0.5000
+ Some-college    Precision : 0.6584  Recall : 0.4801  Beta : 0.5553
+ Assoc-acdm      Precision : 0.7222  Recall : 0.5532  Beta : 0.6265
+ Assoc-voc       Precision : 0.6739  Recall : 0.4921  Beta : 0.5688
+ 7th-8th         Precision : 0.0000  Recall : 0.0000  Beta : 0.0000
+ Doctorate       Precision : 0.8596  Recall : 0.8596  Beta : 0.8596
+ Prof-school     Precision : 0.8298  Recall : 0.9286  Beta : 0.8764
+ 5th-6th         Precision : 1.0000  Recall : 0.5000  Beta : 0.6667
+ 10th            Precision : 0.3333  Recall : 0.1667  Beta : 0.2222
+ 1st-4th         Precision : 1.0000  Recall : 1.0000  Beta : 1.0000
+ Preschool       Precision : 1.0000  Recall : 1.0000  Beta : 1.0000
+ 12th            Precision : 1.0000  Recall : 0.4000  Beta : 0.5714

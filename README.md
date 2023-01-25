@@ -35,12 +35,14 @@ I have explorated the data in a "notebooks/Exploration Data Analysis.ipynb"
 # Model
 * Using the starter code, write a machine learning model that trains on the clean data and saves the model. Complete any function that has been started.
 
-$ python starter/starter/train_model.py
+    $ python starter/starter/train_model.py
 
+            Training metrics: precision=0.9990 recall=0.9957 fbeta=0.9974
+            Testing  metrics: precision=0.7420 recall=0.6225 fbeta=0.6771
 
 * Write unit tests for at least 3 functions in the model code.
 
-$ pytest starter/test_ml.py -v
+    $ pytest starter/test_ml.py -v
 
 
 <img src = "starter/screenshots/unit_test.png?raw=true" width = "900" height = "200" />
@@ -49,8 +51,15 @@ $ pytest starter/test_ml.py -v
 * Write a function that outputs the performance of the model on slices of the data.
 * Suggestion: for simplicity, the function can just output the performance on slices of just the categorical features.
 
-<img src = "starter/results/slicer_performance.png?raw=true" width = "700" height = "300" />
+    $ python starter/starter/performance_analysis.py 
 
+Performance in train
+
+<img src = "starter/results/slicer_performance_education_train.png?raw=true" width = "700" height = "300" />
+
+Performance in test
+
+<img src = "starter/results/slicer_performance_education_test.png?raw=true" width = "700" height = "300" />
 
 * Write a model card using the provided template.
 

@@ -1,0 +1,6 @@
+Performance results for the slices of sex feature
+
+Total dataset    Precision : 0.9990  Recall : 0.9957  Beta : 0.9974
+--------------------------------------------------------
+ Male            Precision : 0.9989  Recall : 0.9966  Beta : 0.9977
+ Female          Precision : 1.0000  Recall : 0.9905  Beta : 0.9952
