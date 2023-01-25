@@ -52,7 +52,7 @@ Model performance is measured with the overall metrics and slice performance ana
 
 According to the data slices, the model have a underperformance in Preschool. This is a indicator os discriminate people because the prediction is always "Income < 50k". This observation requires futher investigation.
 
-<img src = "starter/results/slicer_performance.png?raw=true" width = "700" height = "300" />
+<img src = "results/slicer_performance.png?raw=true" width = "700" height = "300" />
 
 ## Caveats and Recommendations
 The data is imbalance and biased and need to be investigated more. For example in the Preschool category as we can see in the previos step.
