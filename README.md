@@ -18,9 +18,23 @@ Working in a command line environment is recommended for ease of use with git an
 * This data is messy, try to open it in pandas and see what you get.
 * To clean it, use your favorite text editor to remove all spaces.
 
+    
+    I have explorated the data in a "notebooks/Exploration Data Analysis.ipynb"
+
+
 # Model
 * Using the starter code, write a machine learning model that trains on the clean data and saves the model. Complete any function that has been started.
+
+    
+    $ python starter/starter/train_model.py
+
+
 * Write unit tests for at least 3 functions in the model code.
+
+
+    $ pytest starter/ -v
+    
+
 * Write a function that outputs the performance of the model on slices of the data.
     * Suggestion: for simplicity, the function can just output the performance on slices of just the categorical features.
 * Write a model card using the provided template.
